@@ -12,6 +12,7 @@ import planet11 from '../images/planet-3.svg'
 
 
 import { Row, Col, Card } from 'react-bootstrap'
+import Canvas from './Canvas';
 
 function Cards() {
     const [cards, cardAlpha] = useState([
@@ -105,6 +106,11 @@ function Cards() {
                             <Card.Text>
                                 <p>{card.body}</p>
                             </Card.Text>
+                            <div>
+                            {[ 'end'].map((placement, idx) => (
+                                <Canvas key={idx} placement={placement} name={placement} />
+                                ))}
+                            </div>
                             </Card.Body>
                         </Card>
                     </Col>

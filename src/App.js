@@ -5,6 +5,7 @@ import NavBARAGAIN from './component/NavBARAGAIN';
 import Card from './component/Card';
 import Character from './component/Character';
 import Navs from './component/Nav';
+import Example from './component/Example';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           </div>
           <div>
             <Character />
+          </div>
+          <div>
+            <Example />
           </div>
           </Row>
         </div>

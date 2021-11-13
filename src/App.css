@@ -19,10 +19,10 @@ body {
     border-radius: 25px;
 }
 .singleCards .card, .singleCharacter .card {
-    height: 13em;
+    height: 15em;
 }
 .singleCards .col .card .card-img-top {
-    width: 65%;
+   max-width: 65%;
 }
 .singleCards .col .card .card-body {
     line-height: 1px;
@@ -42,9 +42,9 @@ body {
 .singleCharacter .col .card .card-body {
     line-height: 1px;
 }
- @media (max-width: 768px) {
+ @media (max-width: 765px) {
     .singleCards .col .card .card-img-top {
-        width: 30%;
+        max-width: 35%; 
     }
 
  }

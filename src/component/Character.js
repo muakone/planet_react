@@ -8,7 +8,7 @@ import { Row, Col, Card } from 'react-bootstrap'
 function Character() {
     
     return (
-        <div className="singleCharacPage">
+        <div className="singleCharacPage mb-5">
             <Row xs={1} md={3} lg={3} className="g-4">
             {characters.map((character) => (
                 <div className="singleCharacter" key={character.id}>

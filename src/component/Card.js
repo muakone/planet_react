@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+//import { useState } from 'react'
 import { cards } from '../cardCharacData'
 
 
@@ -10,13 +10,13 @@ import { Row, Col, Card } from 'react-bootstrap'
 function Cards() {
     
 
-    const [show, setShow] = useState(false);
+    //const [show, setShow] = useState(false);
 
-    const setSideBar = () => setShow(!show);
+   // const setSideBar = () => setShow(!show);
 
 
     return (
-        <div>
+        <div className="mb-5">
             <Row xs={1} md={3} lg={4} className="g-4">
             {cards.map((card) => (
                 <div className="singleCards" key={card.id}>

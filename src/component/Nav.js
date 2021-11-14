@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Navs() {
 
-    const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
+   // const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
 
 
     return (

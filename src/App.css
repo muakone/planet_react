@@ -19,7 +19,7 @@ body {
     border-radius: 25px;
 }
 .singleCards .card, .singleCharacter .card {
-    height: 14em;
+   max-height: 15em;
 }
 .singleCards .col .card .card-img-top {
    max-width: 65%;

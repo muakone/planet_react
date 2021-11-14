@@ -1,6 +1,7 @@
 import React from 'react'
 import Canvas from './Canvas';
 
+/*
 function Example() {
     return (
         <>
@@ -12,3 +13,4 @@ function Example() {
 }
 
 export default Example;
+*/

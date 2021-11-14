@@ -1,5 +1,7 @@
 import React from 'react'
 import { Nav } from 'react-bootstrap';
+//import { Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function Navs() {
 
@@ -7,16 +9,35 @@ function Navs() {
 
 
     return (
-        <div>
-            <Nav variant="pill" defaultActiveKey="/home" onSelect={handleSelect}>
-                <Nav.Item>
-                    <Nav.Link href="/Card">PLANETS</Nav.Link>
+       <div className="mb-3">
+           <Nav variant="pills red" defaultActiveKey="/Card">
+                <Nav.Item className="bg-nav">
+                    <Nav.Link className="links" href="/Card">
+                    <Link to="/" className="text-decoration-none text-dark opacity-75">planets</Link>
+                    </Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link eventKey="Character">CHARACTERS</Nav.Link>
+                <Nav.Item className="bg-nav">
+                    <Nav.Link eventKey="link-1">
+                    <Link to="/character" className="text-decoration-none text-dark opacity-75">chacracters</Link>
+                    </Nav.Link>
                 </Nav.Item>
             </Nav>
-        </div>
+        </div> 
+
+        /*<div className="nav mb-3">
+        <Nav variant="pill" defaultActiveKey="/Card" className="d-inline-flex justify-content-evenly text-grey">
+            <Nav.Item className="">
+                <Nav.Link href="/Card">
+                 <Link to="/" className="text-decoration-none text-dark opacity-75">planets</Link>
+                </Nav.Link>
+            </Nav.Item>
+            <Nav.Item className="">
+                <Nav.Link eventKey="link-1">
+                    <Link to="/character" className="text-decoration-none text-dark opacity-75">chacracters</Link>
+                </Nav.Link>
+            </Nav.Item>
+        </Nav>
+    </div> */
     )
 }
 

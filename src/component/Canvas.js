@@ -1,3 +1,4 @@
+/* 
 import React from 'react'
 import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas'
@@ -28,3 +29,4 @@ function Canvas({ name, ...props }) {
 }
 
 export default Canvas;
+*/

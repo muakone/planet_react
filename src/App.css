@@ -18,8 +18,23 @@ body {
 .singleCards .col .card {
     border-radius: 25px;
 }
-.singleCards .card, .singleCharacter .card {
-   max-height: 15em;
+.singleCards .col .card, .singleCharacter .card {
+   max-height: 14em;
+   max-width: 100%;
+}
+.singleCards .col .card .card-body .card-title .p-Title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    color: #121C33;
+}
+.singleCards .col .card .card-body .card-text .p-Body {
+    font-weight: normal;
+    font-size: 12px;
+    color: #121C33;
+    
+    opacity: 0.6;
 }
 .singleCards .col .card .card-img-top {
    max-width: 65%;
@@ -43,6 +58,7 @@ body {
 .singleCharacter .col .card .card-body {
     line-height: 1px;
 }
+
 
 
 /*

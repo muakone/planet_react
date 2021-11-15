@@ -10,7 +10,7 @@ function Navs() {
 
     return (
        <div className="mb-3">
-           <Nav variant="pills red" defaultActiveKey="/Card">
+           <Nav defaultActiveKey="/Card">
                 <Nav.Item className="bg-nav">
                     <Nav.Link className="links" href="/Card">
                     <Link to="/" className="text-decoration-none text-dark opacity-75">planets</Link>

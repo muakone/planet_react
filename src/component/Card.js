@@ -25,10 +25,10 @@ function Cards() {
                             <Card.Img className="justify-content-center m-auto" variant="top" src={card.image} />
                             <Card.Body>
                             <Card.Title>
-                                <h5>{card.title}</h5>
+                                <h5 class="p-Title">{card.title}</h5>
                             </Card.Title>
                             <Card.Text>
-                                <p>{card.body}</p>
+                                <p class="p-Body">{card.body}</p>
                             </Card.Text>
                             </Card.Body>
                         </Card>

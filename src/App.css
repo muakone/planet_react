@@ -5,6 +5,7 @@
 }
 body {
     font-style: 'Poppins', sans-serif;
+    min-height: 100vh;
 }
 .navbar-light a.navbar-brand,
 .navbar-light a.navbar-brand:hover
@@ -20,7 +21,6 @@ body {
 }
 .singleCards .col .card, .singleCharacter .card {
    max-height: 14em;
-   max-width: 100%;
 }
 .singleCards .col .card .card-body .card-title .p-Title {
     font-weight: 600;
@@ -44,8 +44,8 @@ body {
     margin-top: -30px;
 }
 .singleCharacPage {
-    width: 80% !important;
-    margin-left: -20% !important;
+    width: 70% !important;
+    margin-left: -1% !important;
 }
 .singleCharacter .col .card .card-img-top {
     border-top-left-radius: 20px;
@@ -54,15 +54,96 @@ body {
 }
 .singleCharacter .col .card {
     border-radius: 20px;
+    cursor: pointer;
 }
 .singleCharacter .col .card .card-body {
     line-height: 1px;
 }
+.plus {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: -90em !important;
+    z-index: 60;
+    
+}
+.plus-outline {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #121C33;
+}
+
+.sidepop-container {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end; 
+  cursor: pointer;
+  
+}
+
+.sidepop-content {
+  width: 28%;
+  min-height: 50%;
+  position: absolute;
+  top: 50px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  margin-right: 3%;
+  transform: translateX(100%);
+}
+.sidepop-content-alpha {
+    width: 28%;
+    min-height: 50%;
+    position: absolute;
+    top: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    margin-right: 3%;
+    transition: 0.5s;
+    transform: translateX(45%);
+  }
+.jane-cooper, .alpha-planet{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    color: #121C33;
+  } 
+  .janeCoop-text, .alpha-planet-text{
+    color: #121C33;
+  }
+  .info-alpha, .janeCoop-charaDetails, .alpha-planet-charaDetails{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #121C33;
+  }
+  .janeCoop-charaDetails{
+    opacity: .7;
+  }
+  .each-person-img{
+    width: 72px;
+    height: 68px;
+    border-radius: 8px;
+  }
+  .each-person-name{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .each-person-info{
+    font-size: 12px;
+    color: #121C33;
+  }
 
 
 
-/*
-.sidePopUp {
+
+/*.sidePopUps {
     background: white;
     min-height: 100vh;
     width: 100%;
@@ -74,11 +155,31 @@ body {
 }
 .sidePopUp :active {
     transform: translateX(0)
+} */
+@media(max-width: 769px) {
+    .sidepop-content {
+        width: 50%;
+        transform: translateX(50%);
+        top: 170px;
+    }
+    .sidepop-content-alpha {
+        width: 50%;
+        transform: translateX(10%);
+        top: 170px;
+    }
 }
-*/
  @media (max-width: 765px) {
     .singleCards .col .card .card-img-top {
         max-width: 35%; 
     }
-
+ }
+ @media (max-width: 480px) {
+    .sidepop-content, .sidepop-content-alpha {
+        width: 93%;
+        transform: translateX(17%);
+        top: 150px;
+    }
+    .pop-chara {
+        display: block!;
+    }
  }

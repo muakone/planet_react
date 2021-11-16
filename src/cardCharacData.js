@@ -18,6 +18,8 @@ import character7 from './images/character-6.png'
 import character8 from './images/character-4.png'
 import character9 from './images/character-10.png'
 
+
+
 export const cards = [
     {
         id: 1,
@@ -95,46 +97,55 @@ export const cards = [
 
 export const characters = [
     {
+        id: 1,
         image: character1,
         name: 'Brooklyn Simmons',
         friends: '23 friends'
     },
     {
+        id: 2,
         image: character2,
         name: 'Cameron Williamson',
         friends: '23 friends'
     },
     {
+        id: 3,
         image: character3,
         name: 'Leslie Alexander',
         friends: '23 friends'
     },
     {
+        id: 4,
         image: character4,
         name: 'Kristin Watson',
         friends: '23 friends'
     },
     {
+        id: 5,
         image: character5,
         name: 'Jenny Wilson',
         friends: '23 friends'
     },
     {
+        id: 6,
         image: character6,
         name: 'Marvin Mckinney',
         friends: '23 friends'
     },
     {
+        id: 7,
         image: character7,
         name: 'Jerome Bell',
         friends: '23 friends'
     },
     {
+        id: 8,
         image: character8,
         name: 'Guy Hawkins',
         friends: '23 friends'
     },
     {
+        id: 9,
         image: character9,
         name: 'Robert Fox',
         friends: '23 friends'

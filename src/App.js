@@ -9,6 +9,7 @@ import Character from './component/Character';
 import Navs from './component/Nav';
 
 
+
 //import SideBar from './component/Sidebar';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
                         <Route exact path='/' element={<Card />} />
                         <Route exact path='/Character' element={<Character />} />
                       </Routes>
+                      
             </Row>
           </div>
         </Router>

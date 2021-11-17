@@ -1,27 +1,37 @@
 import React from 'react'
-import { Nav } from 'react-bootstrap';
 //import { Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+//import { Nav } from 'react-bootstrap';
+//import { Link } from 'react-router-dom';
+import Tabs from 'react-bootstrap/Tabs'
+//import TabContainer from 'react-bootstrap/TabContainer'
+import { Tab } from 'bootstrap';
+import { useState } from 'react';
+import Cards from './Card';
+import Character from './Character';
 
 function Navs() {
+
+    const [key, setKey] = useState('home');
 
    // const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
 
 
     return (
        <div className="mb-3">
-           <Nav variant="pills" defaultActiveKey="/Card">
-                <Nav.Item>
-                    <Nav.Link className="links" href="/Card">
-                    <Link to="/" className="text-decoration-none text-dark opacity-75">planets</Link>
-                    </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link eventKey="link-1">
-                    <Link to="/character" className="text-decoration-none text-dark opacity-75">chacracters</Link>
-                    </Nav.Link>
-                </Nav.Item>
-            </Nav>
+        <Tabs
+      id="controlled-tab-example"
+      activeKey={key}
+      onSelect={(k) => setKey(k)}
+      className="mb-3"
+    >
+      <Tab eventKey="home" title="Home">
+        <Cards />
+      </Tab>
+      <Tab eventKey="profile" title="Character">
+        <Character />
+      </Tab>
+    </Tabs>
+
         </div> 
 
         /*<div className="nav mb-3">

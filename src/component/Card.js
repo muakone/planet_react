@@ -5,6 +5,7 @@ import { cards } from '../cardCharacData'
 
 import { Row, Col, Card } from 'react-bootstrap'
 import PlanetPop from './PlanetPop'
+import PlanetForm from './PlanetForm'
 //import SideBar from './Sidebar'
 
 
@@ -36,11 +37,12 @@ function Cards() {
                             </Card.Body>
                         </Card>
                     </Col>
+                    
                 </div>
             ))}
-
-                    
+   
             </Row>
+            <PlanetForm />
             <div>
             {
                 chara && <PlanetPop />

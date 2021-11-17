@@ -5,13 +5,18 @@ import jane3 from '../images/character-4.png'
 import jane4 from '../images/character-11.png'
 import jane5 from '../images/character-14.png'
 import jane6 from '../images/character-5.png'
+import { CloseButton } from 'react-bootstrap'
 
 
 function SidePop() {
+
     return (
         <div className="container">
             <div className="sidepop-container ms-4">
                     <div className="sidepop-content py-5 px-4">
+                        <div className="d-flex justify-content-end mb-3">
+                        <CloseButton />
+                        </div>
                        <h2 className="jane-cooper">Jane Cooper</h2>
                        <p className="janeCoop-text">
                             is really a nice person, she's been

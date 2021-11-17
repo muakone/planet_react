@@ -3,6 +3,8 @@ import { characters } from '../cardCharacData'
 import { useState } from 'react'
 import { Row, Col, Card } from 'react-bootstrap'
 import SidePop from './SidePop'
+import CharForm from './CharForm'
+//import Plus from './Plus'
 
 
 
@@ -30,14 +32,14 @@ function Character() {
                     </Col>
                 </div>
             ))}
-
             </Row>
-           </div>
+            <CharForm />
             <div>
             {
                 chara && <SidePop />
             }
             </div>
+           </div>
         </div>
     )
 }

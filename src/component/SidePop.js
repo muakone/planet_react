@@ -8,7 +8,7 @@ import jane6 from '../images/character-5.png'
 import { CloseButton } from 'react-bootstrap'
 
 
-function SidePop() {
+function SidePop({name, setChara}) {
 
     return (
         <div className="container">
@@ -17,7 +17,7 @@ function SidePop() {
                         <div className="d-flex justify-content-end mb-3">
                         <CloseButton />
                         </div>
-                       <h2 className="jane-cooper">Jane Cooper</h2>
+                       <h2 className="jane-cooper">{name}</h2>
                        <p className="janeCoop-text">
                             is really a nice person, she's been
                             living on Planet Alpha for the last 10 years.
@@ -35,7 +35,7 @@ function SidePop() {
                                 <img src={jane1} className="each-person-img my-2 me-3" alt="Jane"/>
                             </div>
                             <div className="each-person-info d-flex justify-content-center align-items-center">
-                                <p><span className="each-person-name">Darlene Robertson </span> <br/> 23 Friends</p>
+                                <p><span className="each-person-name">Darlene Robertson </span> <br/> ammet minim malitit nan desert allunace</p>
                             </div>
 
                             
@@ -46,7 +46,7 @@ function SidePop() {
                                 <img src={jane2} className="each-person-img my-2 me-3" alt="Jane"/>
                             </div>
                             <div className="each-person-info d-flex justify-content-center align-items-center">
-                                <p><span className="each-person-name">Katheryn Murphy </span> <br/> 23 Friends</p>
+                                <p><span className="each-person-name">Katheryn Murphy </span> <br/> ammet minim malitit nan desert allunace</p>
                             </div>
 
                             
@@ -57,7 +57,7 @@ function SidePop() {
                                 <img src={jane3} className="each-person-img my-2 me-3" alt="Jane"/>
                             </div>
                             <div className="each-person-info d-flex justify-content-center align-items-center">
-                                <p><span className="person-name">Jenny Willson </span> <br/> 23 Friends</p>
+                                <p><span className="each-person-name">Jenny Willson </span> <br/> ammet minim malitit nan desert allunace</p>
                             </div>
 
                             
@@ -69,7 +69,7 @@ function SidePop() {
                                 <img src={jane4} className="each-person-img my-2 me-3" alt="Jane"/>
                             </div>
                             <div className="each-person-info d-flex justify-content-center align-items-center">
-                                <p><span className="each-person-name">Arlene McCoy </span> <br/> 23 Friends</p>
+                                <p><span className="each-person-name">Arlene McCoy </span> <br/> ammet minim malitit nan desert allunace</p>
                             </div>
 
                             
@@ -81,7 +81,7 @@ function SidePop() {
                                 <img src={jane5} className="each-person-img my-2 me-3" alt="Jane"/>
                             </div>
                             <div className="each-person-info d-flex justify-content-center align-items-center">
-                                <p><span className="each-person-name">Darrell Steward </span> <br/> 23 Friends</p>
+                                <p><span className="each-person-name">Darrell Steward </span> <br/> ammet minim malitit nan desert allunace</p>
                             </div>
 
                             
@@ -93,7 +93,7 @@ function SidePop() {
                                 <img src={jane6} className="each-person-img my-2 me-3" alt="Jane"/>
                             </div>
                             <div className="each-person-info d-flex justify-content-center align-items-center">
-                                <p><span className="each-person-name">Bessie Cooper </span> <br/> 23 Friends</p>
+                                <p><span className="each-person-name">Bessie Cooper </span> <br/> ammet minim malitit nan desert allunace</p>
                             </div>
 
                             

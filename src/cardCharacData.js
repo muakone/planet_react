@@ -100,54 +100,63 @@ export const characters = [
         id: 1,
         image: character1,
         name: 'Brooklyn Simmons',
-        friends: '23 friends'
+        friends: '23 friends',
+        friend: '21'
     },
     {
         id: 2,
         image: character2,
         name: 'Cameron Williamson',
-        friends: '23 friends'
+        friends: '23 friends',
+        friend: '232'
     },
     {
         id: 3,
         image: character3,
         name: 'Leslie Alexander',
-        friends: '23 friends'
+        friends: '23 friends',
+        friend: '23'
     },
     {
         id: 4,
         image: character4,
         name: 'Kristin Watson',
-        friends: '23 friends'
+        friends: '23 friends',
+        friend: '24'
     },
     {
         id: 5,
         image: character5,
         name: 'Jenny Wilson',
-        friends: '23 friends'
+        friends: '23 friends',
+        friend: '25'
     },
     {
         id: 6,
         image: character6,
         name: 'Marvin Mckinney',
-        friends: '23 friends'
+        friends: '23 friends',
+        friend: '26'
     },
     {
         id: 7,
         image: character7,
         name: 'Jerome Bell',
-        friends: '23 friends'
+        friends: '23 friends',
+        friend: '27'
     },
     {
         id: 8,
         image: character8,
         name: 'Guy Hawkins',
-        friends: '23 friends'
+        friends: '23 friends',
+        friend: '28'
     },
     {
         id: 9,
         image: character9,
         name: 'Robert Fox',
-        friends: '23 friends'
+        friends: '23 friends',
+        friend: '29'
     }
 ]

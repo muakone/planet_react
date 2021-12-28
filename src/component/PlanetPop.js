@@ -7,13 +7,13 @@ import alpha5 from '../images/character-14.png'
 import alpha6 from '../images/character-6.png'
 import { CloseButton } from 'react-bootstrap'
 
-function PlanetPop() {
+function PlanetPop({onHide}) {
     return (
         <div className="container">
             <div className="sidepop-container ms-4">
                     <div className="sidepop-content-alpha py-5 px-4">
                     <div className="d-flex justify-content-end mb-3">
-                        <CloseButton />
+                        <CloseButton onClick={onHide} />
                         </div>
                        <h2 className="alpha-planet">Planet Alpha</h2>
                        <p className="alpha-planet-text">

@@ -8,14 +8,13 @@ import jane6 from '../images/character-5.png'
 import { CloseButton } from 'react-bootstrap'
 
 
-function SidePop({name, setChara}) {
-
+function SidePop({name, friend, onClicks}) {
     return (
         <div className="container">
             <div className="sidepop-container ms-4">
                     <div className="sidepop-content py-5 px-4">
                         <div className="d-flex justify-content-end mb-3">
-                        <CloseButton />
+                        <CloseButton onClick={onClicks} />
                         </div>
                        <h2 className="jane-cooper">{name}</h2>
                        <p className="janeCoop-text">
@@ -24,7 +23,7 @@ function SidePop({name, setChara}) {
                        </p>
                        <div className="janeCoop-info d-flex">
                             <p className="pe-5">Planet<br/><h6 className="info-alpha">Alpha</h6> </p>
-                            <p>Friends<br/><span className="info-alpha">23</span> </p>
+                            <p>Friends<br/><span className="info-alpha">{friend}</span> </p>
                        </div>
                        
                        <div className="janeCoop-charaDetails">

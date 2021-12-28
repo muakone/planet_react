@@ -45,7 +45,7 @@ function Cards() {
             <PlanetForm />
             <div>
             {
-                chara && <PlanetPop />
+                chara && <PlanetPop onHide={() => setChara(false)}/>
             }
             </div>
         </div>

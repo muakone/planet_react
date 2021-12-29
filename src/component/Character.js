@@ -4,13 +4,9 @@ import { useState } from 'react'
 import { Row, Col, Card } from 'react-bootstrap'
 import SidePop from './SidePop'
 import CharForm from './CharForm'
-//import Plus from './Plus'
-
-
 
 function Character() {
     const [chara, setChara] = useState(false)
-    //const sidePopUps = () => {setChara(!chara)}
 
     const [value, setValue] = useState({})
 
@@ -18,7 +14,8 @@ function Character() {
       setChara(!chara)
       setValue({
         name : characterss.name,
-        friend : characterss.friend
+        friend : characterss.friend,
+        planet : characterss.planet
       })
     }
     return (
@@ -46,7 +43,7 @@ function Character() {
             <CharForm />
             <div>
             {
-                chara && <SidePop name={value.name} friend={value.friend} onClicks={() => setChara(false)} />
+                chara && <SidePop name={value.name} friend={value.friend} planet={value.planet} onClicks={() => setChara(false)} />
             }
             </div>
            </div>

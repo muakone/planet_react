@@ -25,73 +25,73 @@ export const cards = [
         id: 1,
         image: planet1,
         title: "Planet Alpha",
-        body: "pop 235"
+        body: "235"
     },
     {
         id: 2,
         image: planet2,
-        title: "Planet Alpha",
-        body: "pop 235"
+        title: "Planet Mars",
+        body: "236"
     },
     {
         id: 3,
         image: planet3,
-        title: "Planet Alpha",
-        body: "pop 235"
+        title: "Planet Mercury",
+        body: "237"
     },
     {
         id: 4,
         image: planet4,
-        title: "Planet Alpha",
-        body: "pop 235"
+        title: "Planet Bruno",
+        body: "238"
     },
     {
         id: 5,
         image: planet4,
         title: "Planet Alpha",
-        body: "pop 235"
+        body: "239"
     },
     {
         id: 6,
         image: planet6,
-        title: "Planet Alpha",
-        body: "pop 235"
+        title: "Planet Mars",
+        body: "240"
     },
     {
         id: 7,
         image: planet7,
-        title: "Planet Alpha",
-        body: "pop 235"
+        title: "Planet Mercury",
+        body: "241"
     },
     {
         id: 8,
         image: planet8,
-        title: "Planet Alpha",
-        body: "pop 235"
+        title: "Planet Bruno",
+        body: "242"
     },
     {
         id: 9,
         image: planet8,
-        title: "Planet Alpha",
-        body: "pop 235"
+        title: "Planet Mars",
+        body: "243"
     },
     {
         id: 10,
         image: planet10,
         title: "Planet Alpha",
-        body: "pop 235"
+        body: "244"
     },
     {
         id: 11,
         image: planet11,
         title: "Planet Alpha",
-        body: "pop 235"
+        body: "245"
     },
     {
         id: 12,
         image: planet6,
-        title: "Planet Alpha",
-        body: "pop 235"
+        title: "Planet Mars",
+        body: "246"
     }
 ]
 
@@ -100,63 +100,72 @@ export const characters = [
         id: 1,
         image: character1,
         name: 'Brooklyn Simmons',
-        friends: '23 friends',
-        friend: '21'
+        friends: '20 friends',
+        friend: '20',
+        planet: 'Alpha'
     },
     {
         id: 2,
         image: character2,
         name: 'Cameron Williamson',
-        friends: '23 friends',
-        friend: '232'
+        friends: '20 friends',
+        friend: '20',
+        planet: 'Mars'
     },
     {
         id: 3,
         image: character3,
         name: 'Leslie Alexander',
         friends: '23 friends',
-        friend: '23'
+        friend: '23',
+        planet: 'Mercury'
     },
     {
         id: 4,
         image: character4,
         name: 'Kristin Watson',
-        friends: '23 friends',
-        friend: '24'
+        friends: '24 friends',
+        friend: '24',
+        planet: 'Bruno'
     },
     {
         id: 5,
         image: character5,
         name: 'Jenny Wilson',
-        friends: '23 friends',
-        friend: '25'
+        friends: '25 friends',
+        friend: '25',
+        planet: 'Alpha'
     },
     {
         id: 6,
         image: character6,
         name: 'Marvin Mckinney',
-        friends: '23 friends',
-        friend: '26'
+        friends: '26 friends',
+        friend: '26',
+        planet: 'Mars'
     },
     {
         id: 7,
         image: character7,
         name: 'Jerome Bell',
         friends: '23 friends',
-        friend: '27'
+        friend: '23',
+        planet: 'Mercury'
     },
     {
         id: 8,
         image: character8,
         name: 'Guy Hawkins',
-        friends: '23 friends',
-        friend: '28'
+        friends: '28 friends',
+        friend: '28',
+        planet: 'Bruno'
     },
     {
         id: 9,
         image: character9,
         name: 'Robert Fox',
-        friends: '23 friends',
-        friend: '29'
+        friends: '18 friends',
+        friend: '18',
+        planet: 'Alpha'
     }
 ]

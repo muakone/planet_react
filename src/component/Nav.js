@@ -1,21 +1,12 @@
 import React from 'react'
-//import { Nav } from 'react-bootstrap';
-//import { Nav } from 'react-bootstrap';
-//import { Link } from 'react-router-dom';
 import Tabs from 'react-bootstrap/Tabs'
-//import TabContainer from 'react-bootstrap/TabContainer'
 import { Tab } from 'bootstrap';
 import { useState } from 'react';
 import Cards from './Card';
 import Character from './Character';
 
 function Navs() {
-
     const [key, setKey] = useState('home');
-
-   // const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
-
-
     return (
        <div className="mb-3">
         <Tabs

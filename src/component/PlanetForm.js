@@ -1,9 +1,6 @@
 import React from 'react'
-//import { AiOutlinePlus } from 'react-icons/ai'
-//import Button from 'react-bootstrap/Button'
 import MyVerticallyCenteredModal from './VerticalModal'
 import { AiFillPlusCircle } from "react-icons/ai";
-//import Plus from './Plus';
 
 function PlanetForm() {
     const [modalShow, setModalShow] = React.useState(false);

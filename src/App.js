@@ -1,18 +1,7 @@
-
 import './App.css';
-//import { Route, Routes} from 'react-router';
-//import { BrowserRouter as Router} from 'react-router-dom';
 import { Container, Row } from 'react-bootstrap';
 import NavBARAGAIN from './component/NavBARAGAIN';
-//import Card from './component/Card';
-//import Character from './component/Character';
 import Navs from './component/Nav';
-
-//import Plus from './component/Plus'
-
-
-
-//import SideBar from './component/Sidebar';
 
 function App() {
   return (
@@ -26,9 +15,7 @@ function App() {
                   <Navs />
                 </div>
               </div>
-              
             </Row>
-            
           </div>
       </Container>
     </div>
